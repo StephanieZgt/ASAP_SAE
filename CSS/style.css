@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Eras Bold ITC';
+    src: local('Eras Bold ITC'), url('chemin/vers/votre-police.woff') format('woff');
+    font-weight: bold;
+  }
+
+body {
+    font-family: Allerta Stencil; 
+}
+
+.menu { 
+	font-family: Allerta Stencil; 
+    font-size: 130%;
+    background-color: rgba(230, 220, 220, 0.449);
+
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-right: 50px;
+    color: black;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+.logo {
+    margin-right: 14%;    
+}
+
+
+
+
+#cookie-banner {
+    background-color: rgba(78, 71, 71, 0.584);
+    color: #fff;
+    text-align: center;
+}
+
+#cookie-banner button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+
+/*##########################  CSS Acceuil  ##########################*/
+
+
+.Acceuil {
+    background: url('../Image/BackASAPsans.png') center/cover no-repeat fixed;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2%;
+}
+
+.text-left, .text-right, .text-below, .top-song {
+    width: 60%;
+}
+
+.top-song {
+    margin-top: -7%; 
+    margin-left: 3%;
+}
+
+.quote {
+    margin-left: 20%;
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 40px
+}
+
+.ASAP {
+    margin-top: 1%;
+    margin-left: 115%;
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 110px
+}
+
+.ROCKY {
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 110px; 
+    margin-left: -10%;
+    margin-top: 14%;
+    -webkit-text-stroke: 2px black; 
+    color: transparent;
+  } 
+
+  
+
+  /*###################################*/
+
+
+  /*######## Biographie ##########*/
+  
+  
+.Biographie {
+    background: url('../Image/BackASAP2.png') center/cover no-repeat fixed;
+  }
+
+
+.bio1 {
+    margin-left: 450px;
+    margin-top: 2%;
+    border-radius: 20px;
+ }
+
+ .bio2 {
+    margin-top: 2%;
+    border-radius: 20px;
+ }
+
+ .mini-title {
+    font-size: 30px;
+ }
+
+ .redaction-droite {
+    margin-left: 50%;
+    font-family: 'Eras Bold ITC', sans-serif,;
+font-size: 50px;
+margin-left: 1%;
+margin-top: 2%;
+display: flex;
+background-color: rgba(0, 0, 0, 0.638);
+border-radius: 20px;
+color: #fff;
+padding: 10px 50px;
+}
+
+.droite {
+    margin-left: 20%;
+ }
+
+ 
+
+
+
+
+ /*###################################*/
+
+
+
+
+ /*######## Discographie ##########*/
+
+
+ .Discographie {
+    background: url('../Image/BackASAP2.png') center/cover no-repeat fixed;
+  }
+
+  .row{
+    display: flex;
+    height: 88%;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+
+  .col{
+    flex-basis: 70%;
+    gap: 2vmin;
+  }
+
+  .ALB {
+    margin-top: -15%;
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 80px;
+  }
+
+
+  p{
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: -7%;
+  }
+
+  .gallery {
+    max-width: 80%;
+    margin-right: 0px;
+    display: flex;
+    gap: 2vmin;
+    padding: 0 14px;
+  }
+
+.gallery li {
+    list-style-type: none;
+    height: 500px;
+    flex-grow: 1;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+  
+
+
+ /*###################################*/
